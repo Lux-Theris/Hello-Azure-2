@@ -9,27 +9,30 @@ body{
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  background-color: cyan;
+  flex-direction: column;
+  justify-content: left;
+  padding: 50px;
+  gap: 12px;
+  background-color: rgb(146, 252, 252);
   color: rgb(0, 0, 0);
 }
-
+/* 
 main{
-  width: 500px;
-  margin: 50px auto;
+  width: 50px;
+  margin: 500px auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: line;
   align-items: center;
   justify-content: center;
   gap: 20px;
   border-radius: 8px;
   box-shadow: 0 0 20px goldenrod;
 
-}
+} */
 
-.container{
+/* .container{
   /* width: 90%; */
-  font-size: 20px;
+  /* font-size: 20px;
   outline: none;
   border: none;
   border-radius: 8px;
@@ -61,11 +64,11 @@ button{
   background: -o-linear-gradient(right,red,  orange, yellow, green, cyan, blue, violet); /
   background: -moz-linear-gradient(right, red,  orange, yellow, green, cyan, blue, violet); 
   background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);*/
-  cursor: pointer;
+ /* cursor: pointer;
 }
 
 @media (max-width: 500px){
   body, input, button {
     font-size: 12px;
   }
-}
+} */
